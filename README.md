@@ -5,10 +5,7 @@ Discord web scraping bot used to scrape websites with dynamic content and send n
 
 ## Instructions
 
-#### 1.Adding bot to your server
-
-Simply click the link:
-https://discord.com/api/oauth2/authorize?client_id=1007981622005596171&permissions=2147485696&scope=bot%20applications.commands
+#### 1.Adding bot to your server (please wait until source is stable and compiled)
 
 #### 2.Adding new scraper job
 
@@ -47,5 +44,3 @@ To verify if your selector is working you can run `document.querySelectorAll(<yo
 - Ebay: `.srp-river-results .s-item__image a`
 - Otodom: `[data-cy=listing-item-link]`
 - Olx: `[data-cy=l-card] > a`
-
-## Feel free to contribute, there are a lot of things to improve :)
